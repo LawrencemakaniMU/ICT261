@@ -4,6 +4,6 @@ module com.example.hellofx {
 
     exports customermanager;
 
-    // FXMLLoader needs reflective access to the controllers (@FXML fields and methods)
+
     opens customermanager to javafx.fxml;
 }
